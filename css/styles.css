@@ -1,0 +1,89 @@
+@import url('https://fonts.cdnfonts.com/css/rodfat-two-demo');
+@import url('https://fonts.cdnfonts.com/css/consistance');
+
+body {
+    margin: 0;
+    font-family: 'Rodfat Two Demo', sans-serif;
+    background-color: #447390;
+}
+
+h1 {
+    font-size: 70px;
+    color: #fff;
+    margin: 0;
+
+}
+p {
+    font-size: 15px;
+    font-family:'Arial';
+    color: #fff;
+    margin: 0;
+    
+
+}
+
+h3 {
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+}
+
+.container {
+    width: 35%;
+    padding: 50px;
+    position: relative;
+    text-align: justify;
+}
+
+.di1{
+    position: absolute;
+    z-index: -2;
+    top: 18%;
+    left: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1.6);
+}
+.di2{
+    position: absolute;
+    z-index: -3;
+    top: 22%;
+    left: calc(52% - 4px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1.6);
+}
+.di3{
+    position: absolute;
+    z-index: -4;
+    top: 28%;
+    left: 54%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1.6);
+}
+.di0{
+    position: absolute;
+    z-index: -1;
+    top: calc(18% - 39px);
+    left: calc(50% - 25px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1.6);
+}
+
+
+.muviz {
+    text-align: center;
+    padding: 100px 0;
+}
+
+footer {
+    background-color: 0c1015;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
